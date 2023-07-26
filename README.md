@@ -2,7 +2,8 @@
 
 > The docs are currently a work in progress.
 
-System to remote control an Air Conditioning unit.
+Web server to remote control an Air Conditioning unit.
+
 Based on:
   * Raspberry Pi zero (or any other device that can interact with ANAVI Infrared pHAT) as the server device
   * [ANAVI Infrared pHAT](https://anavi.technology/files/anavi-infrared-phat.pdf) to control the AC through infrared

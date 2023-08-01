@@ -1,6 +1,6 @@
 # AC Control 
 
-> The docs are currently a work in progress.
+> This readme is currently outdated. The V2 of the project is being rewritten in Golang.
 
 Web server to remote control an Air Conditioning unit.
 

@@ -89,8 +89,10 @@ const toast = (text) => {
   const setTemp = async () => {
     const res = await fetch('/temp');
     const {temp, humidity} = await res.json();
-    tempLabel.innerHTML = temp;
-    humLabel.innerHTML = humidity;
+    if (res.ok && (temp || humidity)) {
+      tempLabel.innerHTML = temp || 'N/A';
+      humLabel.innerHTML = humidity || 'N/A';
+    }
     setTimeout(setTemp, 5000);
   }
   setTemp();
